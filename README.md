@@ -1,3 +1,10 @@
+# Anggota
+
+| Nama | NRP |
+|---|---|
+| Kalistania Casey Tangkemanda | 5025231302 |
+| Nadya Zafira | 5025231310 |
+
 # Key Distribution (KDC) + AES Manual
 
 Implementasi skenario distribusi kunci dengan KDC untuk tiga entitas (KDC, Alice, Bob) di tiga IP berbeda. AES dan KDC ditulis manual tanpa library kriptografi. Hanya memakai Python 3 standard library (socket, threading, json).
@@ -93,9 +100,5 @@ Untuk uji di satu laptop, bisa pakai IP loopback berbeda di Linux: `--host 127.0
    - port 6000: `TICKET`, `NONCE`, `NONCE_RESP`, `HANDSHAKE_OK`, lalu `CHAT` (ciphertext hex)
 4. Tunjukkan bahwa isi chat hanya terlihat sebagai hex, bukan plaintext.
 
-## Anggota
 
-| Nama | NRP | 
-|Kalistania Casey Tangkemanda|5025231302|
-|Nadya Zafira|5025231310 |
 
